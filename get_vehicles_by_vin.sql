@@ -1,0 +1,3 @@
+USE DealershipDatabase;
+
+SELECT * FROM Vehicles WHERE VIN = '1HGCM82633A123456';
