@@ -6,5 +6,5 @@ FROM Sales_Contracts sc
 JOIN Vehicles v ON sc.VIN = v.VIN
 JOIN Inventory i ON v.VIN = i.VIN
 JOIN Dealerships d ON i.dealership_id = d.dealership_id
-WHERE d.dealership_id = 1
+WHERE d.dealership_id = 3
 AND sc.dateOfSale BETWEEN '2023-01-01' AND '2023-12-31';
